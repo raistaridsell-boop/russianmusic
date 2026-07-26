@@ -6,16 +6,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("32470626"))
+API_HASH = 1d701ebaf57eef0c94400072ae752328
+BOT_TOKEN = getenv("8967952528:AAHSdbXbWgDhBS3Gb-pO8S0-9IEGf1n-Clk")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://akashrajput010208:qy9qMomvLOpbegOP@cluster0.21upfwm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-OWNER_ID = int(getenv("OWNER_ID", 7403621976))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003365454690))
+OWNER_ID = int(getenv("OWNER_ID", 7832349983)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
