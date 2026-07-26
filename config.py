@@ -1,3 +1,4 @@
+import os
 import re
 from os import getenv
 
@@ -13,12 +14,12 @@ BOT_TOKEN = getenv("8967952528:AAHSdbXbWgDhBS3Gb-pO8S0-9IEGf1n-Clk")
 MONGO_DB_URI = getenv(
     "MONGO_DB_URI",
     "mongodb+srv://akashrajput010208:qy9qMomvLOpbegOP@cluster0.21upfwm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-))
+)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 LOGGER_ID = int(getenv("LOGGER_ID", -1003365454690))
-OWNER_ID = int(getenv("OWNER_ID", 7832349983)
+OWNER_ID = int(getenv("OWNER_ID", 7832349983))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
