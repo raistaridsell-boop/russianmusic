@@ -25,8 +25,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # Vars For API End Pont.
-API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsiDRNRXMOkjyt81KaadyM") ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT
+
+YT_API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsiDRNRXMOkjyt81KaadyM")
+YTPROXY_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
 
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TOXICPAPA00/NORMAL_MUSIC")
